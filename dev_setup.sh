@@ -8,7 +8,11 @@ echo "$COLOR_LIGHT_BLUE 🧑‍🔧 Building docker-compose images... $COLOR_RES
 docker-compose build
 echo "$COLOR_LIGHT_BLUE ✨ docker-compose images are built! $COLOR_REST"
 
-# Done!
-echo
-echo "$COLOR_GREEN Airflow in Docker setup ready! ✨$COLOR_REST"
-echo "$COLOR_MAGENTA     ./run.sh$COLOR_REST"
+
+# Setup DBs
+echo "$COLOR_LIGHT_BLUE 🧑‍🔧 Initializing Databases... $COLOR_REST"
+docker-compose up airflow-init
+echo "$COLOR_LIGHT_BLUE ✨ DBs ready to go! $COLOR_REST"
+
+echo "$COLOR_LIGHT_BLUE ✨ Airflow is ready to go! $COLOR_REST"
+echo "$COLOR_MAGENTA     ./run.sh $COLOR_REST"
