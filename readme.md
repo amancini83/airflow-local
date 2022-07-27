@@ -15,7 +15,7 @@ and, when it's done:
 ./run.sh
 ```
 
-After that, can access to Airflow UI open localhost:8080 in a web browser.
+After that, you can access to Airflow UI open localhost:8080 in a web browser.
 
 Anyway, I will let you a step by step guide for running Airflow with Docker on your machine with a dummy ETL DAG.
 
