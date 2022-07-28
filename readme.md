@@ -3,7 +3,7 @@ Apache Airflow is one of the hottest technologies in the field of Data Engineeri
 
 To test Airflow on your local machine, then the simplest way to do so is with the use of Docker images.
 
-This reposity already has `docker-compose.yaml` so, you could use directly running de followings commands:
+This reposity already has `docker-compose.yaml` so, you could use directly running the followings commands:
 
 ```bash
 ./dev_setup.sh
@@ -16,6 +16,8 @@ and, when it's done:
 ```
 
 After that, you can access to Airflow UI open localhost:8080 in a web browser.
+
+To sign-in in UI; use `AIRFLOW_WWW_USER_USERNAME` and `_AIRFLOW_WWW_USER_PASSWORD` defined in [docker-compose.yaml](https://github.com/amancini83/airflow-local/blob/c1b60cc021a04362e34fa2ac54610b7d99eef742/docker-compose.yaml#L32)
 
 ## Prerequisites
 You need to make sure you have installed
