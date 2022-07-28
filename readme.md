@@ -17,7 +17,10 @@ and, when it's done:
 
 After that, you can access to Airflow UI open localhost:8080 in a web browser.
 
-To sign-in in UI; use `AIRFLOW_WWW_USER_USERNAME` and `_AIRFLOW_WWW_USER_PASSWORD` defined in [docker-compose.yaml](https://github.com/amancini83/airflow-local/blob/c1b60cc021a04362e34fa2ac54610b7d99eef742/docker-compose.yaml#L32)
+![image](https://user-images.githubusercontent.com/29926334/181624002-6d0b1883-275d-4d75-b697-60aacf36beeb.png)
+
+
+To Sign In into UI; use `AIRFLOW_WWW_USER_USERNAME` and `_AIRFLOW_WWW_USER_PASSWORD` defined in [docker-compose.yaml](https://github.com/amancini83/airflow-local/blob/c1b60cc021a04362e34fa2ac54610b7d99eef742/docker-compose.yaml#L32)
 
 ## Prerequisites
 You need to make sure you have installed
